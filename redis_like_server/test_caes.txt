@@ -1,0 +1,16 @@
+POST /api/set/
+Content-Type: application/json
+{
+  "key": "hello",
+  "value": "world"
+}
+
+POST /api/get/
+{
+  "key": "hello"
+}
+
+POST /api/delete/
+{
+  "key": "hello"
+}
